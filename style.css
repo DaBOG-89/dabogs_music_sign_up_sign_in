@@ -25,21 +25,16 @@
         font-size: 50pt;
     }
 
-    .sign_up, .sign_in {
-        display: none;
-    }
-
-    .sign_in {
-        margin-top: 150pt;
-    }
-
     form {
         background-color: rgba(53, 5, 53, 0.5);
         color: white;
         justify-self: center;
         padding: 10pt;
         width: 25%;
-        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     fieldset {
@@ -47,6 +42,16 @@
         padding: 10pt; 
         text-align: left;
     }
+
+    .sign_in {
+        margin-top: 150pt;
+        display: flex;
+    }
+
+    .sign_up, .sign_in {
+        display: none;
+    }
+
 
     button {
         text-align: center;
