@@ -81,4 +81,8 @@
         .sign_in {
             margin-top: 120pt;
         }
+
+        input {
+            background-color: white;
+        }
     }
