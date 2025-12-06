@@ -69,7 +69,8 @@
         }
 
         form {
-            width: 50%;
+            background-color: rgba(53, 5, 53, 0.7);
+            width: 70%;
         }
 
         .sign_in {
