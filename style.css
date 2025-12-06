@@ -1,0 +1,78 @@
+    *{
+        margin: 0pt;
+        padding: 0pt;
+    }
+    body {
+        background-image: url("pictures_1/0.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+    }
+
+    .header {
+        margin-top: 150pt;
+    }
+
+    h1, p {
+        color: white;
+        text-align: center;
+        font-size: 50pt;
+    }
+
+    .sign_up, .sign_in {
+        display: none;
+    }
+
+    .sign_in {
+        margin-top: 150pt;
+    }
+
+    form {
+        background-color: rgba(53, 5, 53, 0.5);
+        color: white;
+        justify-self: center;
+        padding: 10pt;
+        width: 25%;
+        
+    }
+
+    fieldset {
+        margin: 10pt;
+        padding: 10pt; 
+        text-align: left;
+    }
+
+    button {
+        text-align: center;
+        padding: 3pt 10pt;
+        cursor: pointer;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    @media (max-width:512px) {
+        .header {
+            margin-top: 80pt;
+        }
+
+        h1, p {
+           
+        }
+
+        form {
+            width: 50%;
+        }
+
+        .sign_in {
+            margin-top: 120pt;
+        }
+    }

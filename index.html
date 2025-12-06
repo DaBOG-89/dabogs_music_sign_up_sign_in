@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign Up / Log In Page</title>
+</head>
+<body>
+    <div class="header">
+        <p><em>Welcome to</em></p>
+        <h1>DaBOG's Music Academy</h1> <br> <br>
+        <button type="button" onclick="signIn()" class="sign_in_button">Sign In</button>
+        <button type="button" onclick="signUp()" class="sign_up_button">Sign Up</button>
+    </div>
+    
+    <div class="sign_in">
+        <form action="">
+            <h2>Sign In</h2>
+            <fieldset>
+                <legend>Log In</legend>
+
+                <label for="username">Username</label> <br>
+                <input type="text" name="username" id="username"> <br>
+
+                <label for="password">Password</label> <br>
+                <input type="password" name="password" id="password">
+            </fieldset>
+        </form>
+        <button type="submit" onclick="signedIn()">Submit</a></button>
+    </div>
+    
+    <div class="sign_up">
+        <form action="" method="post" autocomplete="on">
+            <h2>Sign Up</h2>
+            <fieldset>
+                <legend>Personal Data</legend>
+
+                <label for="first_name">Firstname</label> <br>
+                <input type="text" name="first_name" id="first_name"> <br>
+
+                <label for="last_name">Lastname</label> <br>
+                <input type="text" name="last_name" id="last_name">
+            </fieldset>
+
+            <fieldset>
+                <legend>Core Couses (Compulsory)</legend>
+
+                <input type="checkbox" name="core_courses" id="theory" checked> 
+                <label for="theory">Theory</label> <br>
+
+                <input type="checkbox" name="core_courses" id="piano" checked> 
+                <label for="piano">Piano</label> <br>
+    
+                <input type="checkbox" name="core_courses" id="recorder" checked> 
+                <label for="recorder">Recorder</label> <br>
+
+                <input type="checkbox" name="core_courses" id="drum_kit" checked>
+                <label for="drum_kit">Drum Kit</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Major Course (Choose One)</legend>
+
+                <input type="radio" name="major_courses" id="piano"> 
+                <label for="piano">Piano</label> <br>
+
+                <input type="radio" name="major_courses" id="violin"> 
+                <label for="violin">Violin</label> <br>
+
+                <input type="radio" name="major_courses" id="guitar"> 
+                <label for="guitar">Guitar</label> <br>
+
+                <input type="radio" name="major_courses" id="recorder">
+                <label for="recorder">Recorder</label> <br>
+
+                <input type="radio" name="major_courses" id="voice">
+                <label for="voice">Voice</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Create Password</legend>
+
+                <label for="create_password">Create Password</label> <br>
+                <input type="password" name="create_password" id="create_password"> <br>
+
+                <label for="confirm_password">Confirm Password</label> <br>
+                <input type="password" name="confirm_password" id="confirm_password">
+            </fieldset>
+        </form>
+        <button type="submit" onclick="signedUp()">Submit</button>
+    </div> 
+</body>
+<script src="index.js"></script>
+</html>
